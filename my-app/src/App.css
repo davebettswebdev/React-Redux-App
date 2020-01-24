@@ -1,0 +1,76 @@
+body {
+  background-image: url(./images//backgound.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 62.5%;
+
+}
+
+h1 {
+  font-size: 5rem;
+  color: white;
+}
+
+h2 , h3 {
+  font-size: 1.7rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat';
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.quote-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.quote-card {
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  text-align: left;
+
+}
+
+.quote-card p{
+  text-align: right;
+}
+
+form > * {
+  /* border: 1px solid red; */
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.6rem;
+}
+
+input {
+  width: 330px;
+}
